@@ -32,4 +32,21 @@
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="A01.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="A02.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="A03.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="A04.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="A05.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
