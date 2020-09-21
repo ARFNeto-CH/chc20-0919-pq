@@ -91,10 +91,10 @@ id, f->arranjo[id]->prioridade);
     // atendimento
     //
     ELEMENTO* novo = NULL;
-    if (f->arranjo[id] >= f->maxElementos)
-        novo = f->arranjo[id];
-    else
+    if (f->arranjo[id] == NULL)
         novo = (ELEMENTO*)malloc(sizeof(ELEMENTO));
+    else
+        novo = f->arranjo[id];
 
     novo->id = id;
     novo->prioridade = prioridade;
