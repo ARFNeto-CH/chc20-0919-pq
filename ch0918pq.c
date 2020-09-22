@@ -251,7 +251,7 @@ void        exibirLog(PFILA f)
 
     // lista por prioridade
 
-    printf("\n\tListagem por prioridade:\n\n");
+    printf("\n\tListagem por prioridade: [ inicio: 0x%p ]\n\n", f->fila);
     ELEMENTO*   p = f->fila->prox; // sentinela
     ix = 1; // conta os caras
     while ( ix <= tamanho(f)  )

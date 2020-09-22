@@ -34,18 +34,18 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:  13.14 ]
   10/  30: [ id:   27 P:   1.39 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   18 p:  15.09 ] [ 0x0000022200470650, ant:0x000002220046B360, prox: 0x0000022200470170]
-   2/  10: [ id:   24 p:  13.14 ] [ 0x0000022200470170, ant:0x0000022200470650, prox: 0x00000222004709B0]
-   3/  10: [ id:   15 p:  12.27 ] [ 0x00000222004709B0, ant:0x0000022200470170, prox: 0x0000022200470CB0]
-   4/  10: [ id:   12 p:   9.87 ] [ 0x0000022200470CB0, ant:0x00000222004709B0, prox: 0x000002220046B4E0]
-   5/  10: [ id:    6 p:   9.20 ] [ 0x000002220046B4E0, ant:0x0000022200470CB0, prox: 0x000002220046B3C0]
-   6/  10: [ id:    0 p:   7.98 ] [ 0x000002220046B3C0, ant:0x000002220046B4E0, prox: 0x000002220046B480]
-   7/  10: [ id:    3 p:   4.90 ] [ 0x000002220046B480, ant:0x000002220046B3C0, prox: 0x0000022200470D10]
-   8/  10: [ id:   21 p:   2.79 ] [ 0x0000022200470D10, ant:0x000002220046B480, prox: 0x00000222004701D0]
-   9/  10: [ id:   27 p:   1.39 ] [ 0x00000222004701D0, ant:0x0000022200470D10, prox: 0x0000022200470A10]
-  10/  10: [ id:    9 p:   1.04 ] [ 0x0000022200470A10, ant:0x00000222004701D0, prox: 0x000002220046B360]
+   1/  10: [ id:   18 p:  15.09 ] [ 0x00A58B50, ant:0x00A55900, prox: 0x00A58E50]
+   2/  10: [ id:   24 p:  13.14 ] [ 0x00A58E50, ant:0x00A58B50, prox: 0x00A58C50]
+   3/  10: [ id:   15 p:  12.27 ] [ 0x00A58C50, ant:0x00A58E50, prox: 0x00A58A10]
+   4/  10: [ id:   12 p:   9.87 ] [ 0x00A58A10, ant:0x00A58C50, prox: 0x00A53B00]
+   5/  10: [ id:    6 p:   9.20 ] [ 0x00A53B00, ant:0x00A58A10, prox: 0x00A4FE48]
+   6/  10: [ id:    0 p:   7.98 ] [ 0x00A4FE48, ant:0x00A53B00, prox: 0x00A4F9A0]
+   7/  10: [ id:    3 p:   4.90 ] [ 0x00A4F9A0, ant:0x00A4FE48, prox: 0x00A58810]
+   8/  10: [ id:   21 p:   2.79 ] [ 0x00A58810, ant:0x00A4F9A0, prox: 0x00A58E10]
+   9/  10: [ id:   27 p:   1.39 ] [ 0x00A58E10, ant:0x00A58810, prox: 0x00A53B40]
+  10/  10: [ id:    9 p:   1.04 ] [ 0x00A53B40, ant:0x00A58E10, prox: 0x00A55900]
 
 Fim da listagem
 
@@ -71,41 +71,41 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:  13.14 ]
   10/  30: [ id:   27 P:   1.39 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   18 p:  15.09 ] [ 0x0000022200470650, ant:0x000002220046B360, prox: 0x0000022200470170]
-   2/  10: [ id:   24 p:  13.14 ] [ 0x0000022200470170, ant:0x0000022200470650, prox: 0x00000222004709B0]
-   3/  10: [ id:   15 p:  12.27 ] [ 0x00000222004709B0, ant:0x0000022200470170, prox: 0x0000022200470CB0]
-   4/  10: [ id:   12 p:   9.87 ] [ 0x0000022200470CB0, ant:0x00000222004709B0, prox: 0x000002220046B4E0]
-   5/  10: [ id:    6 p:   9.20 ] [ 0x000002220046B4E0, ant:0x0000022200470CB0, prox: 0x000002220046B3C0]
-   6/  10: [ id:    0 p:   7.98 ] [ 0x000002220046B3C0, ant:0x000002220046B4E0, prox: 0x000002220046B480]
-   7/  10: [ id:    3 p:   4.90 ] [ 0x000002220046B480, ant:0x000002220046B3C0, prox: 0x0000022200470D10]
-   8/  10: [ id:   21 p:   2.79 ] [ 0x0000022200470D10, ant:0x000002220046B480, prox: 0x00000222004701D0]
-   9/  10: [ id:   27 p:   1.39 ] [ 0x00000222004701D0, ant:0x0000022200470D10, prox: 0x0000022200470A10]
-  10/  10: [ id:    9 p:   1.04 ] [ 0x0000022200470A10, ant:0x00000222004701D0, prox: 0x000002220046B360]
+   1/  10: [ id:   18 p:  15.09 ] [ 0x00A58B50, ant:0x00A55900, prox: 0x00A58E50]
+   2/  10: [ id:   24 p:  13.14 ] [ 0x00A58E50, ant:0x00A58B50, prox: 0x00A58C50]
+   3/  10: [ id:   15 p:  12.27 ] [ 0x00A58C50, ant:0x00A58E50, prox: 0x00A58A10]
+   4/  10: [ id:   12 p:   9.87 ] [ 0x00A58A10, ant:0x00A58C50, prox: 0x00A53B00]
+   5/  10: [ id:    6 p:   9.20 ] [ 0x00A53B00, ant:0x00A58A10, prox: 0x00A4FE48]
+   6/  10: [ id:    0 p:   7.98 ] [ 0x00A4FE48, ant:0x00A53B00, prox: 0x00A4F9A0]
+   7/  10: [ id:    3 p:   4.90 ] [ 0x00A4F9A0, ant:0x00A4FE48, prox: 0x00A58810]
+   8/  10: [ id:   21 p:   2.79 ] [ 0x00A58810, ant:0x00A4F9A0, prox: 0x00A58E10]
+   9/  10: [ id:   27 p:   1.39 ] [ 0x00A58E10, ant:0x00A58810, prox: 0x00A53B40]
+  10/  10: [ id:    9 p:   1.04 ] [ 0x00A53B40, ant:0x00A58E10, prox: 0x00A55900]
 
 Fim da listagem
 
 removerElemento( 18,P =  15.09)
-Removido elemento com endereco 0000022200470650
+Removido elemento com endereco 00A58B50
 removerElemento( 24,P =  13.14)
-Removido elemento com endereco 0000022200470170
+Removido elemento com endereco 00A58E50
 removerElemento( 15,P =  12.27)
-Removido elemento com endereco 00000222004709B0
+Removido elemento com endereco 00A58C50
 removerElemento( 12,P =   9.87)
-Removido elemento com endereco 0000022200470CB0
+Removido elemento com endereco 00A58A10
 removerElemento(  6,P =   9.20)
-Removido elemento com endereco 000002220046B4E0
+Removido elemento com endereco 00A53B00
 removerElemento(  0,P =   7.98)
-Removido elemento com endereco 000002220046B3C0
+Removido elemento com endereco 00A4FE48
 removerElemento(  3,P =   4.90)
-Removido elemento com endereco 000002220046B480
+Removido elemento com endereco 00A4F9A0
 removerElemento( 21,P =   2.79)
-Removido elemento com endereco 0000022200470D10
+Removido elemento com endereco 00A58810
 removerElemento( 27,P =   1.39)
-Removido elemento com endereco 00000222004701D0
+Removido elemento com endereco 00A58E10
 removerElemento(  9,P =   1.04)
-Removido elemento com endereco 0000022200470A10
+Removido elemento com endereco 00A53B40
 
 
 exibirLog(): Fila tem  30 lugares.   0 ocupados
@@ -144,18 +144,18 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:   3.21 ]
   10/  30: [ id:   27 P:   0.21 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   12 p:  17.49 ] [ 0x0000022200470CB0, ant:0x000002220046B360, prox: 0x000002220046B3C0]
-   2/  10: [ id:    0 p:  11.21 ] [ 0x000002220046B3C0, ant:0x0000022200470CB0, prox: 0x000002220046B4E0]
-   3/  10: [ id:    6 p:  11.17 ] [ 0x000002220046B4E0, ant:0x000002220046B3C0, prox: 0x00000222004709B0]
-   4/  10: [ id:   15 p:  10.51 ] [ 0x00000222004709B0, ant:0x000002220046B4E0, prox: 0x0000022200470D10]
-   5/  10: [ id:   21 p:   6.77 ] [ 0x0000022200470D10, ant:0x00000222004709B0, prox: 0x0000022200470A10]
-   6/  10: [ id:    9 p:   6.74 ] [ 0x0000022200470A10, ant:0x0000022200470D10, prox: 0x000002220046B480]
-   7/  10: [ id:    3 p:   5.93 ] [ 0x000002220046B480, ant:0x0000022200470A10, prox: 0x0000022200470650]
-   8/  10: [ id:   18 p:   5.06 ] [ 0x0000022200470650, ant:0x000002220046B480, prox: 0x0000022200470170]
-   9/  10: [ id:   24 p:   3.21 ] [ 0x0000022200470170, ant:0x0000022200470650, prox: 0x00000222004701D0]
-  10/  10: [ id:   27 p:   0.21 ] [ 0x00000222004701D0, ant:0x0000022200470170, prox: 0x000002220046B360]
+   1/  10: [ id:   12 p:  17.49 ] [ 0x00A58A10, ant:0x00A55900, prox: 0x00A4FE48]
+   2/  10: [ id:    0 p:  11.21 ] [ 0x00A4FE48, ant:0x00A58A10, prox: 0x00A53B00]
+   3/  10: [ id:    6 p:  11.17 ] [ 0x00A53B00, ant:0x00A4FE48, prox: 0x00A58C50]
+   4/  10: [ id:   15 p:  10.51 ] [ 0x00A58C50, ant:0x00A53B00, prox: 0x00A58810]
+   5/  10: [ id:   21 p:   6.77 ] [ 0x00A58810, ant:0x00A58C50, prox: 0x00A53B40]
+   6/  10: [ id:    9 p:   6.74 ] [ 0x00A53B40, ant:0x00A58810, prox: 0x00A4F9A0]
+   7/  10: [ id:    3 p:   5.93 ] [ 0x00A4F9A0, ant:0x00A53B40, prox: 0x00A58B50]
+   8/  10: [ id:   18 p:   5.06 ] [ 0x00A58B50, ant:0x00A4F9A0, prox: 0x00A58E50]
+   9/  10: [ id:   24 p:   3.21 ] [ 0x00A58E50, ant:0x00A58B50, prox: 0x00A58E10]
+  10/  10: [ id:   27 p:   0.21 ] [ 0x00A58E10, ant:0x00A58E50, prox: 0x00A55900]
 
 Fim da listagem
 
@@ -211,18 +211,18 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:   3.21 ]
   10/  30: [ id:   27 P:   0.21 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   12 p:  17.49 ] [ 0x0000022200470CB0, ant:0x000002220046B360, prox: 0x000002220046B3C0]
-   2/  10: [ id:    0 p:  11.21 ] [ 0x000002220046B3C0, ant:0x0000022200470CB0, prox: 0x000002220046B4E0]
-   3/  10: [ id:    6 p:  11.17 ] [ 0x000002220046B4E0, ant:0x000002220046B3C0, prox: 0x00000222004709B0]
-   4/  10: [ id:   15 p:  10.51 ] [ 0x00000222004709B0, ant:0x000002220046B4E0, prox: 0x0000022200470D10]
-   5/  10: [ id:   21 p:   6.77 ] [ 0x0000022200470D10, ant:0x00000222004709B0, prox: 0x0000022200470A10]
-   6/  10: [ id:    9 p:   6.74 ] [ 0x0000022200470A10, ant:0x0000022200470D10, prox: 0x000002220046B480]
-   7/  10: [ id:    3 p:   5.93 ] [ 0x000002220046B480, ant:0x0000022200470A10, prox: 0x0000022200470650]
-   8/  10: [ id:   18 p:   5.06 ] [ 0x0000022200470650, ant:0x000002220046B480, prox: 0x0000022200470170]
-   9/  10: [ id:   24 p:   3.21 ] [ 0x0000022200470170, ant:0x0000022200470650, prox: 0x00000222004701D0]
-  10/  10: [ id:   27 p:   0.21 ] [ 0x00000222004701D0, ant:0x0000022200470170, prox: 0x000002220046B360]
+   1/  10: [ id:   12 p:  17.49 ] [ 0x00A58A10, ant:0x00A55900, prox: 0x00A4FE48]
+   2/  10: [ id:    0 p:  11.21 ] [ 0x00A4FE48, ant:0x00A58A10, prox: 0x00A53B00]
+   3/  10: [ id:    6 p:  11.17 ] [ 0x00A53B00, ant:0x00A4FE48, prox: 0x00A58C50]
+   4/  10: [ id:   15 p:  10.51 ] [ 0x00A58C50, ant:0x00A53B00, prox: 0x00A58810]
+   5/  10: [ id:   21 p:   6.77 ] [ 0x00A58810, ant:0x00A58C50, prox: 0x00A53B40]
+   6/  10: [ id:    9 p:   6.74 ] [ 0x00A53B40, ant:0x00A58810, prox: 0x00A4F9A0]
+   7/  10: [ id:    3 p:   5.93 ] [ 0x00A4F9A0, ant:0x00A53B40, prox: 0x00A58B50]
+   8/  10: [ id:   18 p:   5.06 ] [ 0x00A58B50, ant:0x00A4F9A0, prox: 0x00A58E50]
+   9/  10: [ id:   24 p:   3.21 ] [ 0x00A58E50, ant:0x00A58B50, prox: 0x00A58E10]
+  10/  10: [ id:   27 p:   0.21 ] [ 0x00A58E10, ant:0x00A58E50, prox: 0x00A55900]
 
 Fim da listagem
 
@@ -250,18 +250,18 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:   3.21 ]
   10/  30: [ id:   27 P:   0.21 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   12 p:  17.49 ] [ 0x0000022200470CB0, ant:0x000002220046B360, prox: 0x000002220046B3C0]
-   2/  10: [ id:    0 p:  11.21 ] [ 0x000002220046B3C0, ant:0x0000022200470CB0, prox: 0x000002220046B4E0]
-   3/  10: [ id:    6 p:  11.17 ] [ 0x000002220046B4E0, ant:0x000002220046B3C0, prox: 0x00000222004709B0]
-   4/  10: [ id:   15 p:  10.51 ] [ 0x00000222004709B0, ant:0x000002220046B4E0, prox: 0x0000022200470D10]
-   5/  10: [ id:   21 p:   6.77 ] [ 0x0000022200470D10, ant:0x00000222004709B0, prox: 0x0000022200470A10]
-   6/  10: [ id:    9 p:   6.74 ] [ 0x0000022200470A10, ant:0x0000022200470D10, prox: 0x000002220046B480]
-   7/  10: [ id:    3 p:   5.93 ] [ 0x000002220046B480, ant:0x0000022200470A10, prox: 0x0000022200470650]
-   8/  10: [ id:   18 p:   5.06 ] [ 0x0000022200470650, ant:0x000002220046B480, prox: 0x0000022200470170]
-   9/  10: [ id:   24 p:   3.21 ] [ 0x0000022200470170, ant:0x0000022200470650, prox: 0x00000222004701D0]
-  10/  10: [ id:   27 p:   0.21 ] [ 0x00000222004701D0, ant:0x0000022200470170, prox: 0x000002220046B360]
+   1/  10: [ id:   12 p:  17.49 ] [ 0x00A58A10, ant:0x00A55900, prox: 0x00A4FE48]
+   2/  10: [ id:    0 p:  11.21 ] [ 0x00A4FE48, ant:0x00A58A10, prox: 0x00A53B00]
+   3/  10: [ id:    6 p:  11.17 ] [ 0x00A53B00, ant:0x00A4FE48, prox: 0x00A58C50]
+   4/  10: [ id:   15 p:  10.51 ] [ 0x00A58C50, ant:0x00A53B00, prox: 0x00A58810]
+   5/  10: [ id:   21 p:   6.77 ] [ 0x00A58810, ant:0x00A58C50, prox: 0x00A53B40]
+   6/  10: [ id:    9 p:   6.74 ] [ 0x00A53B40, ant:0x00A58810, prox: 0x00A4F9A0]
+   7/  10: [ id:    3 p:   5.93 ] [ 0x00A4F9A0, ant:0x00A53B40, prox: 0x00A58B50]
+   8/  10: [ id:   18 p:   5.06 ] [ 0x00A58B50, ant:0x00A4F9A0, prox: 0x00A58E50]
+   9/  10: [ id:   24 p:   3.21 ] [ 0x00A58E50, ant:0x00A58B50, prox: 0x00A58E10]
+  10/  10: [ id:   27 p:   0.21 ] [ 0x00A58E10, ant:0x00A58E50, prox: 0x00A55900]
 
 Fim da listagem
 
@@ -282,18 +282,18 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:   4.21 ]
   10/  30: [ id:   27 P:  -0.79 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   12 p:  18.49 ] [ 0x0000022200470CB0, ant:0x000002220046B360, prox: 0x000002220046B3C0]
-   2/  10: [ id:    0 p:  12.21 ] [ 0x000002220046B3C0, ant:0x0000022200470CB0, prox: 0x000002220046B4E0]
-   3/  10: [ id:    6 p:  12.17 ] [ 0x000002220046B4E0, ant:0x000002220046B3C0, prox: 0x00000222004709B0]
-   4/  10: [ id:   15 p:   9.51 ] [ 0x00000222004709B0, ant:0x000002220046B4E0, prox: 0x0000022200470A10]
-   5/  10: [ id:    9 p:   6.74 ] [ 0x0000022200470A10, ant:0x00000222004709B0, prox: 0x0000022200470650]
-   6/  10: [ id:   18 p:   6.06 ] [ 0x0000022200470650, ant:0x0000022200470A10, prox: 0x0000022200470D10]
-   7/  10: [ id:   21 p:   5.77 ] [ 0x0000022200470D10, ant:0x0000022200470650, prox: 0x000002220046B480]
-   8/  10: [ id:    3 p:   4.93 ] [ 0x000002220046B480, ant:0x0000022200470D10, prox: 0x0000022200470170]
-   9/  10: [ id:   24 p:   4.21 ] [ 0x0000022200470170, ant:0x000002220046B480, prox: 0x00000222004701D0]
-  10/  10: [ id:   27 p:  -0.79 ] [ 0x00000222004701D0, ant:0x0000022200470170, prox: 0x000002220046B360]
+   1/  10: [ id:   12 p:  18.49 ] [ 0x00A58A10, ant:0x00A55900, prox: 0x00A4FE48]
+   2/  10: [ id:    0 p:  12.21 ] [ 0x00A4FE48, ant:0x00A58A10, prox: 0x00A53B00]
+   3/  10: [ id:    6 p:  12.17 ] [ 0x00A53B00, ant:0x00A4FE48, prox: 0x00A58C50]
+   4/  10: [ id:   15 p:   9.51 ] [ 0x00A58C50, ant:0x00A53B00, prox: 0x00A53B40]
+   5/  10: [ id:    9 p:   6.74 ] [ 0x00A53B40, ant:0x00A58C50, prox: 0x00A58B50]
+   6/  10: [ id:   18 p:   6.06 ] [ 0x00A58B50, ant:0x00A53B40, prox: 0x00A58810]
+   7/  10: [ id:   21 p:   5.77 ] [ 0x00A58810, ant:0x00A58B50, prox: 0x00A4F9A0]
+   8/  10: [ id:    3 p:   4.93 ] [ 0x00A4F9A0, ant:0x00A58810, prox: 0x00A58E50]
+   9/  10: [ id:   24 p:   4.21 ] [ 0x00A58E50, ant:0x00A4F9A0, prox: 0x00A58E10]
+  10/  10: [ id:   27 p:  -0.79 ] [ 0x00A58E10, ant:0x00A58E50, prox: 0x00A55900]
 
 Fim da listagem
 
@@ -317,18 +317,18 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:   4.21 ]
   10/  30: [ id:   27 P:  56.00 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   27 p:  56.00 ] [ 0x00000222004701D0, ant:0x000002220046B360, prox: 0x0000022200470CB0]
-   2/  10: [ id:   12 p:  18.49 ] [ 0x0000022200470CB0, ant:0x00000222004701D0, prox: 0x000002220046B3C0]
-   3/  10: [ id:    0 p:  12.21 ] [ 0x000002220046B3C0, ant:0x0000022200470CB0, prox: 0x000002220046B4E0]
-   4/  10: [ id:    6 p:  12.17 ] [ 0x000002220046B4E0, ant:0x000002220046B3C0, prox: 0x00000222004709B0]
-   5/  10: [ id:   15 p:   9.51 ] [ 0x00000222004709B0, ant:0x000002220046B4E0, prox: 0x0000022200470A10]
-   6/  10: [ id:    9 p:   6.74 ] [ 0x0000022200470A10, ant:0x00000222004709B0, prox: 0x0000022200470650]
-   7/  10: [ id:   18 p:   6.06 ] [ 0x0000022200470650, ant:0x0000022200470A10, prox: 0x0000022200470D10]
-   8/  10: [ id:   21 p:   5.77 ] [ 0x0000022200470D10, ant:0x0000022200470650, prox: 0x000002220046B480]
-   9/  10: [ id:    3 p:   4.93 ] [ 0x000002220046B480, ant:0x0000022200470D10, prox: 0x0000022200470170]
-  10/  10: [ id:   24 p:   4.21 ] [ 0x0000022200470170, ant:0x000002220046B480, prox: 0x000002220046B360]
+   1/  10: [ id:   27 p:  56.00 ] [ 0x00A58E10, ant:0x00A55900, prox: 0x00A58A10]
+   2/  10: [ id:   12 p:  18.49 ] [ 0x00A58A10, ant:0x00A58E10, prox: 0x00A4FE48]
+   3/  10: [ id:    0 p:  12.21 ] [ 0x00A4FE48, ant:0x00A58A10, prox: 0x00A53B00]
+   4/  10: [ id:    6 p:  12.17 ] [ 0x00A53B00, ant:0x00A4FE48, prox: 0x00A58C50]
+   5/  10: [ id:   15 p:   9.51 ] [ 0x00A58C50, ant:0x00A53B00, prox: 0x00A53B40]
+   6/  10: [ id:    9 p:   6.74 ] [ 0x00A53B40, ant:0x00A58C50, prox: 0x00A58B50]
+   7/  10: [ id:   18 p:   6.06 ] [ 0x00A58B50, ant:0x00A53B40, prox: 0x00A58810]
+   8/  10: [ id:   21 p:   5.77 ] [ 0x00A58810, ant:0x00A58B50, prox: 0x00A4F9A0]
+   9/  10: [ id:    3 p:   4.93 ] [ 0x00A4F9A0, ant:0x00A58810, prox: 0x00A58E50]
+  10/  10: [ id:   24 p:   4.21 ] [ 0x00A58E50, ant:0x00A4F9A0, prox: 0x00A55900]
 
 Fim da listagem
 
@@ -352,17 +352,17 @@ exibirLog(): Fila tem  30 lugares.  10 ocupados
    9/  30: [ id:   24 P:   4.21 ]
   10/  30: [ id:   27 P: -56.00 ]
 
-        Listagem por prioridade:
+        Listagem por prioridade: [ inicio: 0x00A55900 ]
 
-   1/  10: [ id:   12 p:  18.49 ] [ 0x0000022200470CB0, ant:0x000002220046B360, prox: 0x000002220046B3C0]
-   2/  10: [ id:    0 p:  12.21 ] [ 0x000002220046B3C0, ant:0x0000022200470CB0, prox: 0x000002220046B4E0]
-   3/  10: [ id:    6 p:  12.17 ] [ 0x000002220046B4E0, ant:0x000002220046B3C0, prox: 0x00000222004709B0]
-   4/  10: [ id:   15 p:   9.51 ] [ 0x00000222004709B0, ant:0x000002220046B4E0, prox: 0x0000022200470A10]
-   5/  10: [ id:    9 p:   6.74 ] [ 0x0000022200470A10, ant:0x00000222004709B0, prox: 0x0000022200470650]
-   6/  10: [ id:   18 p:   6.06 ] [ 0x0000022200470650, ant:0x0000022200470A10, prox: 0x0000022200470D10]
-   7/  10: [ id:   21 p:   5.77 ] [ 0x0000022200470D10, ant:0x0000022200470650, prox: 0x000002220046B480]
-   8/  10: [ id:    3 p:   4.93 ] [ 0x000002220046B480, ant:0x0000022200470D10, prox: 0x0000022200470170]
-   9/  10: [ id:   24 p:   4.21 ] [ 0x0000022200470170, ant:0x000002220046B480, prox: 0x00000222004701D0]
-  10/  10: [ id:   27 p: -56.00 ] [ 0x00000222004701D0, ant:0x0000022200470170, prox: 0x000002220046B360]
+   1/  10: [ id:   12 p:  18.49 ] [ 0x00A58A10, ant:0x00A55900, prox: 0x00A4FE48]
+   2/  10: [ id:    0 p:  12.21 ] [ 0x00A4FE48, ant:0x00A58A10, prox: 0x00A53B00]
+   3/  10: [ id:    6 p:  12.17 ] [ 0x00A53B00, ant:0x00A4FE48, prox: 0x00A58C50]
+   4/  10: [ id:   15 p:   9.51 ] [ 0x00A58C50, ant:0x00A53B00, prox: 0x00A53B40]
+   5/  10: [ id:    9 p:   6.74 ] [ 0x00A53B40, ant:0x00A58C50, prox: 0x00A58B50]
+   6/  10: [ id:   18 p:   6.06 ] [ 0x00A58B50, ant:0x00A53B40, prox: 0x00A58810]
+   7/  10: [ id:   21 p:   5.77 ] [ 0x00A58810, ant:0x00A58B50, prox: 0x00A4F9A0]
+   8/  10: [ id:    3 p:   4.93 ] [ 0x00A4F9A0, ant:0x00A58810, prox: 0x00A58E50]
+   9/  10: [ id:   24 p:   4.21 ] [ 0x00A58E50, ant:0x00A4F9A0, prox: 0x00A58E10]
+  10/  10: [ id:   27 p: -56.00 ] [ 0x00A58E10, ant:0x00A58E50, prox: 0x00A55900]
 
 Fim da listagem
