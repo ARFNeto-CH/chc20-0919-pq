@@ -13,6 +13,7 @@ int main(void)
 	FILADEPRIORIDADE* pq = NULL;
 	exibirLog(pq);
 	pq = criarFila(30);
+
 	// cria
 	testaCriaUns(pq);
 	exibirLog(pq);
@@ -27,6 +28,14 @@ int main(void)
 
 	testaConsulta(pq);
 	testaMudaPrioridade(pq);
+	
+	printf("\n\n\t==> Aumenta prioridade do id 27 para 56.\n");
+	aumentarPrioridade(pq, 27, 56.);
+	exibirLog(pq);
+
+	printf("\n\n\t==> Diminui prioridade do id 27 para -56.\n");
+	reduzirPrioridade(pq, 27, -56.);
+	exibirLog(pq);
 	return 0;
 };	//	main()
 

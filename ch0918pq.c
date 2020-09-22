@@ -18,9 +18,6 @@ bool        aumentarPrioridade(PFILA f, int id, float novaPrioridade)
     if (f->arranjo[id]->prioridade  >= novaPrioridade) return false;
 
     // o elemento existia com prioridade menor
-    // entao acerta o arranjo
-    f->arranjo[id]->prioridade = novaPrioridade;
-    // e a lista
     return trocaPrioridade(f, id, novaPrioridade);
 };  // aumentarPrioridade()
 
@@ -143,9 +140,6 @@ bool        reduzirPrioridade(PFILA f, int id, float novaPrioridade)
     if (f->arranjo[id]->prioridade <= novaPrioridade) return false;
 
     // o elemento existia com prioridade maior
-    // entao acerta o arranjo
-    f->arranjo[id]->prioridade = novaPrioridade;
-    // e a lista
     return trocaPrioridade(f, id, novaPrioridade);
 }
 
@@ -275,23 +269,31 @@ void        exibirLog(PFILA f)
 
 bool        trocaPrioridade(PFILA f, int id, float pri)
 {
-    // troca a prioridade do elemento id por p
+    // troca a posicao do elemento na fila para a
+    // que corresponde a nova prioridade. 
+    //
+
+    // desconecta da fila
+    (f->arranjo[id]->ant)->prox = f->arranjo[id]->prox;
+    (f->arranjo[id]->prox)->ant = f->arranjo[id]->ant;
+
+    // o elementoja esta na fila ou nao estariamos aqui
+    // agora acha a nova posicao consirando a nova 
+    // prioridade
 
     ELEMENTO* p = f->fila->prox; // sentinela
-    int ix = tamanho(f); // conta os caras
-    while (ix > 0)
+    while (p != f->fila)
     {
-        if (p->id == id)
-        {
-            p->prioridade = pri;
-            return true;
-        };  // if()
+        if ( pri > p->prioridade ) break;
         p = p->prox;
-        ix -= 1;
-    };
-    // se chegou aqui nao tinha o cara
-    // nao pode acontecer normalmente
-    return false;
-};  // exibirLog()
+    };  // while()
+    // o lugar novo eh antes de p
+    p->ant->prox = f->arranjo[id];
+    f->arranjo[id]->ant = p->ant;
+    p->ant = f->arranjo[id];
+    f->arranjo[id]->prox = p;
+    f->arranjo[id]->prioridade = pri;
+    return true;
+};  // trocaPrioridade()
 
 // fim
